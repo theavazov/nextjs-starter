@@ -11,7 +11,7 @@ In this project you already have:
 - `i18n.config.ts` file for modifying your languages in your application
 - translations folder for all of your locales with translations, if you want to add more just add `translations/{locale}.json`
 - in `utils` folder all of main files that will be used in your project: `components` for your components, `hooks` for custom hooks, `lib` for third party packages, `styles` folder for your applications styles
-<!-- - redux toolkit for state management -->
+- redux toolkit for state management
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
