@@ -1,6 +1,6 @@
 import { Locale } from "@/i18n.config";
 import Navbar from "@/utils/components/navbar";
-import { getDictionary } from "@/utils/lib/dictionary";
+import { getDictionary } from "@/utils/lib/i18n";
 
 export default async function Home({
   params: { lang },

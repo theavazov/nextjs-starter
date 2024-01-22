@@ -1,6 +1,6 @@
-import LocaleSwitcher from "./locale-switcher";
+import LocaleSwitcher from "@/utils/components/locale-switcher";
 import { Locale } from "@/i18n.config";
-import CustomLink from "./custom-link";
+import CustomLink from "@/utils/components/utils/custom-link";
 
 export default function Navbar({ lang }: { lang: Locale }) {
   return (
