@@ -1,0 +1,26 @@
+@import "./tailwind.css";
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-inner {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.switcher-inner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.switcher {
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+}
